@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +11,9 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "mysql2": "^3.12.0"
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "mysql2": "^3.12.0",
+    "nodemailer": "^6.10.0"
   }
 }
