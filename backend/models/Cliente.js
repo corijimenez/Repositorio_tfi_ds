@@ -1,9 +1,10 @@
 class Cliente {
-  constructor(id, name, email, password, role) {
-    this.id = id;
+  constructor(dni, name, lastname, email, telefono) {
+    this.dni = dni;
     this.name = name;
+    this.lastname = lastname;
     this.email = email;
-    this.password = password;
+    this.telefono = telefono;
     this.role = role;
   }
 }
